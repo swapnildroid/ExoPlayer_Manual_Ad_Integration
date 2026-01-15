@@ -1,6 +1,15 @@
 # README
 
-## HLD
+## Contents
+1. [Screenshot][#screenshot]
+2. [HLD][#HLD]
+3. [LLD Component Class Diagram][#LLD — Component Class Diagram]
+4. [LLD Playback Control Flow][#LLD — Playback Control Flow]
+
+### Screenshot
+![Screenshot_20260115_200257.png](Screenshot_20260115_200257.png)
+
+### HLD
 ```mermaid
 flowchart TD
 
@@ -38,7 +47,7 @@ Buttons[User Skip Buttons] --> MP
 Buttons --> AE
 ```
 
-## LLD — Component Class Diagram 
+### LLD — Component Class Diagram 
 ```mermaid
 classDiagram
 
@@ -95,8 +104,7 @@ ExoPlayer --> PlayerListener
 PlayerView --> ExoPlayer
 ```
 
-## LLD — Playback Control Flow
-
+### LLD — Playback Control Flow
 ```mermaid
 sequenceDiagram
 

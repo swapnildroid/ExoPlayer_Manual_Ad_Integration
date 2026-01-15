@@ -76,7 +76,7 @@ fun PlayerScreen(url: String, adUrl: String) {
         }
     }
 
-    var adPlayer = remember {
+    val adPlayer = remember {
         ExoPlayer.Builder(context).build().apply {
             setMediaItem(MediaItem.fromUri(adUrl))
             prepare()
